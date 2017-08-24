@@ -33,8 +33,8 @@ var select = function(caseData, functionData) {
     }
 }
 
-var Do = function(argOne, argTwo) {
+var ExecuteYo = function(argOne, argTwo) {
     select(argOne, argTwo);
 };
 
-do(process.argv[2], process.argv[3]);
+ExecuteYo(process.argv[2], process.argv[3]);
